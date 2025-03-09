@@ -22,3 +22,12 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Docker's local data:
+/docker/volume/dumps/*
+/docker/volume/mysql/*
+/docker/volume/redis-data/*
+
+!/docker/volume/dumps/.gitignore
+!/docker/volume/mysql/.gitignore
+!/docker/volume/redis-data/.gitignore
